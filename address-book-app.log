@@ -292,3 +292,50 @@
 2024-05-23 12:29:22,351 [DEBUG] app.crud: Fetching addresses for page: 2, page size: 10, offset: 10
 2024-05-23 12:29:22,359 [INFO] app.crud: 10 addresses found on page 2
 2024-05-23 12:29:22,364 [INFO] app.routers.address: Returning 10 addresses on page 2
+2024-05-23 13:19:43,175 [INFO] app.main: App has started
+2024-05-23 13:19:44,952 [INFO] app.routers.address: Fetching addresses within 15.0 km of (10.0, 20.0)
+2024-05-23 13:19:44,952 [DEBUG] app.crud: Fetching addresses within 15.0 km of (10.0, 20.0)
+2024-05-23 13:19:44,957 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,957 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,958 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,958 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,958 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,959 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,959 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,960 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,960 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,960 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,961 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,961 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,961 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,961 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,962 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,962 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,962 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,962 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,963 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,963 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:19:44,963 [INFO] app.crud: 20 addresses found within 15.0 km of (10.0, 20.0)
+2024-05-23 13:20:11,783 [INFO] app.routers.address: Fetching addresses within 5.0 km of (10.0, 20.0)
+2024-05-23 13:20:11,784 [DEBUG] app.crud: Fetching addresses within 5.0 km of (10.0, 20.0)
+2024-05-23 13:20:11,786 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,786 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,786 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,787 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,787 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,787 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,788 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,788 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,788 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,788 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,789 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,789 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,789 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,790 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,790 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,790 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,791 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,791 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,791 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,792 [DEBUG] app.crud: Distance to (10.0, 20.0) is 0.0 km
+2024-05-23 13:20:11,792 [INFO] app.crud: 20 addresses found within 5.0 km of (10.0, 20.0)
