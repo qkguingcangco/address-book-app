@@ -1,0 +1,294 @@
+2024-05-23 12:12:42,658 [INFO] app.main: App has started
+2024-05-23 12:12:56,507 [DEBUG] app.crud: Fetching addresses with skip: 0, limit: 10
+2024-05-23 12:12:56,514 [INFO] app.crud: 0 addresses found
+2024-05-23 12:14:13,687 [INFO] app.main: App has started
+2024-05-23 12:14:43,462 [INFO] app.main: App has started
+2024-05-23 12:14:43,519 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:43,943 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7db571cd30>
+2024-05-23 12:14:43,946 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:43,997 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7db571d090>
+2024-05-23 12:14:43,998 [DEBUG] app.crud: Fetching address with ID: 2
+2024-05-23 12:14:44,000 [INFO] app.crud: Address found: <app.models.Address object at 0x7f7db571d090>
+2024-05-23 12:14:44,003 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:44,095 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7db571d090>
+2024-05-23 12:14:44,095 [DEBUG] app.crud: Deleting address with ID: 3
+2024-05-23 12:14:44,145 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7f7db571d090>
+2024-05-23 12:14:44,145 [DEBUG] app.crud: Fetching address with ID: 3
+2024-05-23 12:14:44,147 [WARNING] app.crud: No address found with ID: 3
+2024-05-23 12:14:44,157 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:44,159 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:44,236 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7db55f4340>
+2024-05-23 12:14:44,238 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:14:44,243 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:44,244 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:44,291 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7db55f5000>
+2024-05-23 12:14:44,293 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:14:44,294 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:44,295 [DEBUG] app.crud: Fetching address with ID: 4
+2024-05-23 12:14:44,297 [INFO] app.crud: Address found: <app.models.Address object at 0x7f7db55f5e70>
+2024-05-23 12:14:44,299 [INFO] httpx: HTTP Request: GET http://testserver/addresses/4 "HTTP/1.1 200 OK"
+2024-05-23 12:14:44,302 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:44,304 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:44,353 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7db55f5db0>
+2024-05-23 12:14:44,356 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:14:44,357 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:44,358 [DEBUG] app.crud: Deleting address with ID: 5
+2024-05-23 12:14:44,407 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7f7db55f6740>
+2024-05-23 12:14:44,409 [INFO] httpx: HTTP Request: DELETE http://testserver/addresses/5 "HTTP/1.1 200 OK"
+2024-05-23 12:14:44,409 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:44,411 [DEBUG] app.crud: Fetching address with ID: 5
+2024-05-23 12:14:44,413 [WARNING] app.crud: No address found with ID: 5
+2024-05-23 12:14:44,414 [INFO] httpx: HTTP Request: GET http://testserver/addresses/5 "HTTP/1.1 404 Not Found"
+2024-05-23 12:14:44,418 [DEBUG] app.utils: Calculating distance between (10.0, 20.0) and (10.1, 20.1)
+2024-05-23 12:14:44,419 [INFO] app.utils: Distance calculated: 15.572814083300257 km
+2024-05-23 12:14:46,913 [INFO] app.main: App has started
+2024-05-23 12:14:49,022 [DEBUG] app.crud: Fetching addresses in pages of 10
+2024-05-23 12:14:49,121 [INFO] app.crud: 4 addresses found
+2024-05-23 12:14:53,210 [INFO] app.main: App has started
+2024-05-23 12:14:58,459 [INFO] app.main: App has started
+2024-05-23 12:14:58,495 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:58,561 [INFO] app.crud: New address created: <app.models.Address object at 0x7f6911844ca0>
+2024-05-23 12:14:58,565 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:58,615 [INFO] app.crud: New address created: <app.models.Address object at 0x7f6911845000>
+2024-05-23 12:14:58,615 [DEBUG] app.crud: Fetching address with ID: 6
+2024-05-23 12:14:58,618 [INFO] app.crud: Address found: <app.models.Address object at 0x7f6911845000>
+2024-05-23 12:14:58,621 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:58,670 [INFO] app.crud: New address created: <app.models.Address object at 0x7f6911845000>
+2024-05-23 12:14:58,670 [DEBUG] app.crud: Deleting address with ID: 7
+2024-05-23 12:14:58,714 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7f6911845000>
+2024-05-23 12:14:58,714 [DEBUG] app.crud: Fetching address with ID: 7
+2024-05-23 12:14:58,716 [WARNING] app.crud: No address found with ID: 7
+2024-05-23 12:14:58,725 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:58,727 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:58,779 [INFO] app.crud: New address created: <app.models.Address object at 0x7f691171c3a0>
+2024-05-23 12:14:58,782 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:14:58,785 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:58,787 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:58,832 [INFO] app.crud: New address created: <app.models.Address object at 0x7f691171cf70>
+2024-05-23 12:14:58,948 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:14:58,949 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:58,951 [DEBUG] app.crud: Fetching address with ID: 8
+2024-05-23 12:14:58,953 [INFO] app.crud: Address found: <app.models.Address object at 0x7f691171dde0>
+2024-05-23 12:14:58,955 [INFO] httpx: HTTP Request: GET http://testserver/addresses/8 "HTTP/1.1 200 OK"
+2024-05-23 12:14:58,958 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:58,959 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:14:59,003 [INFO] app.crud: New address created: <app.models.Address object at 0x7f691171e1a0>
+2024-05-23 12:14:59,005 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:14:59,006 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:59,007 [DEBUG] app.crud: Deleting address with ID: 9
+2024-05-23 12:14:59,057 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7f691171e6b0>
+2024-05-23 12:14:59,059 [INFO] httpx: HTTP Request: DELETE http://testserver/addresses/9 "HTTP/1.1 200 OK"
+2024-05-23 12:14:59,060 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:14:59,061 [DEBUG] app.crud: Fetching address with ID: 9
+2024-05-23 12:14:59,063 [WARNING] app.crud: No address found with ID: 9
+2024-05-23 12:14:59,065 [INFO] httpx: HTTP Request: GET http://testserver/addresses/9 "HTTP/1.1 404 Not Found"
+2024-05-23 12:14:59,068 [DEBUG] app.utils: Calculating distance between (10.0, 20.0) and (10.1, 20.1)
+2024-05-23 12:14:59,068 [INFO] app.utils: Distance calculated: 15.572814083300257 km
+2024-05-23 12:15:04,444 [INFO] app.main: App has started
+2024-05-23 12:15:04,482 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:15:04,550 [INFO] app.crud: New address created: <app.models.Address object at 0x7f11ee49cbe0>
+2024-05-23 12:15:04,553 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:15:04,603 [INFO] app.crud: New address created: <app.models.Address object at 0x7f11ee49cf40>
+2024-05-23 12:15:04,603 [DEBUG] app.crud: Fetching address with ID: 10
+2024-05-23 12:15:04,606 [INFO] app.crud: Address found: <app.models.Address object at 0x7f11ee49cf40>
+2024-05-23 12:15:04,609 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:15:04,681 [INFO] app.crud: New address created: <app.models.Address object at 0x7f11ee49cf40>
+2024-05-23 12:15:04,682 [DEBUG] app.crud: Deleting address with ID: 11
+2024-05-23 12:15:04,727 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7f11ee49cf40>
+2024-05-23 12:15:04,728 [DEBUG] app.crud: Fetching address with ID: 11
+2024-05-23 12:15:04,730 [WARNING] app.crud: No address found with ID: 11
+2024-05-23 12:15:04,738 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:15:04,740 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:15:04,792 [INFO] app.crud: New address created: <app.models.Address object at 0x7f11ee5701f0>
+2024-05-23 12:15:04,794 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:15:04,798 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:15:04,799 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:15:04,845 [INFO] app.crud: New address created: <app.models.Address object at 0x7f11ee570eb0>
+2024-05-23 12:15:04,847 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:15:04,847 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:15:04,857 [DEBUG] app.crud: Fetching address with ID: 12
+2024-05-23 12:15:04,860 [INFO] app.crud: Address found: <app.models.Address object at 0x7f11ee571d20>
+2024-05-23 12:15:04,861 [INFO] httpx: HTTP Request: GET http://testserver/addresses/12 "HTTP/1.1 200 OK"
+2024-05-23 12:15:04,865 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:15:04,866 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:15:04,917 [INFO] app.crud: New address created: <app.models.Address object at 0x7f11ee571c60>
+2024-05-23 12:15:04,919 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:15:04,920 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:15:04,921 [DEBUG] app.crud: Deleting address with ID: 13
+2024-05-23 12:15:04,969 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7f11ee5725f0>
+2024-05-23 12:15:04,971 [INFO] httpx: HTTP Request: DELETE http://testserver/addresses/13 "HTTP/1.1 200 OK"
+2024-05-23 12:15:04,972 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:15:04,973 [DEBUG] app.crud: Fetching address with ID: 13
+2024-05-23 12:15:04,975 [WARNING] app.crud: No address found with ID: 13
+2024-05-23 12:15:04,977 [INFO] httpx: HTTP Request: GET http://testserver/addresses/13 "HTTP/1.1 404 Not Found"
+2024-05-23 12:15:04,980 [DEBUG] app.utils: Calculating distance between (10.0, 20.0) and (10.1, 20.1)
+2024-05-23 12:15:04,980 [INFO] app.utils: Distance calculated: 15.572814083300257 km
+2024-05-23 12:15:07,162 [INFO] app.main: App has started
+2024-05-23 12:15:08,099 [DEBUG] app.crud: Fetching addresses in pages of 10
+2024-05-23 12:15:08,104 [INFO] app.crud: 10 addresses found
+2024-05-23 12:15:17,376 [INFO] app.main: App has started
+2024-05-23 12:15:18,773 [DEBUG] app.crud: Fetching addresses in pages of 10
+2024-05-23 12:15:18,778 [INFO] app.crud: 10 addresses found
+2024-05-23 12:16:18,614 [INFO] app.main: App has started
+2024-05-23 12:16:24,543 [DEBUG] app.crud: Fetching address with ID: 1
+2024-05-23 12:16:24,549 [INFO] app.crud: Address found: <app.models.Address object at 0x7f40bf853910>
+2024-05-23 12:16:28,825 [DEBUG] app.crud: Fetching address with ID: 100
+2024-05-23 12:16:28,828 [WARNING] app.crud: No address found with ID: 100
+2024-05-23 12:17:33,143 [INFO] app.main: App has started
+2024-05-23 12:18:27,916 [INFO] app.main: App has started
+2024-05-23 12:18:29,413 [DEBUG] app.crud: Fetching address with ID: 100
+2024-05-23 12:18:29,419 [WARNING] app.crud: No address found with ID: 100
+2024-05-23 12:18:36,553 [DEBUG] app.crud: Fetching addresses for page: 1, page size: 10, offset: 0
+2024-05-23 12:18:36,555 [INFO] app.crud: 10 addresses found on page 1
+2024-05-23 12:18:40,867 [DEBUG] app.crud: Fetching addresses for page: 2, page size: 10, offset: 10
+2024-05-23 12:18:40,869 [INFO] app.crud: 2 addresses found on page 2
+2024-05-23 12:19:08,261 [INFO] app.main: App has started
+2024-05-23 12:19:42,681 [INFO] app.main: App has started
+2024-05-23 12:19:43,477 [INFO] app.main: App has started
+2024-05-23 12:19:54,858 [INFO] app.main: App has started
+2024-05-23 12:20:04,384 [INFO] app.main: App has started
+2024-05-23 12:20:08,975 [INFO] app.routers.address: Fetching addresses for page 2 with page size 10
+2024-05-23 12:20:08,975 [DEBUG] app.crud: Fetching addresses for page: 2, page size: 10, offset: 10
+2024-05-23 12:20:08,981 [INFO] app.crud: 2 addresses found on page 2
+2024-05-23 12:20:54,329 [INFO] app.routers.address: Fetching addresses for page 2 with page size 10
+2024-05-23 12:20:54,329 [DEBUG] app.crud: Fetching addresses for page: 2, page size: 10, offset: 10
+2024-05-23 12:20:54,332 [INFO] app.crud: 2 addresses found on page 2
+2024-05-23 12:20:58,194 [INFO] app.routers.address: Fetching addresses for page 1 with page size 10
+2024-05-23 12:20:58,194 [DEBUG] app.crud: Fetching addresses for page: 1, page size: 10, offset: 0
+2024-05-23 12:20:58,197 [INFO] app.crud: 10 addresses found on page 1
+2024-05-23 12:23:06,038 [INFO] app.main: App has started
+2024-05-23 12:23:08,962 [INFO] app.routers.address: Fetching addresses for page 1 with page size 10
+2024-05-23 12:23:08,963 [DEBUG] app.crud: Fetching addresses for page: 1, page size: 10, offset: 0
+2024-05-23 12:23:08,968 [INFO] app.crud: 10 addresses found on page 1
+2024-05-23 12:23:08,972 [INFO] app.routers.address: Returning 10 addresses on page 1
+2024-05-23 12:23:46,445 [INFO] app.main: App has started
+2024-05-23 12:23:49,063 [INFO] app.main: App has started
+2024-05-23 12:24:06,929 [INFO] app.main: App has started
+2024-05-23 12:24:09,767 [INFO] app.routers.address: Fetching addresses for page 1 with page size 10
+2024-05-23 12:24:09,767 [DEBUG] app.crud: Fetching addresses for page: 1, page size: 10, offset: 0
+2024-05-23 12:24:09,773 [INFO] app.crud: 10 addresses found on page 1
+2024-05-23 12:24:09,777 [INFO] app.routers.address: Returning 10 addresses on page 1
+2024-05-23 12:25:08,916 [INFO] app.main: App has started
+2024-05-23 12:25:09,375 [INFO] app.routers.address: Fetching addresses for page 1 with page size 10
+2024-05-23 12:25:09,375 [DEBUG] app.crud: Fetching addresses for page: 1, page size: 10, offset: 0
+2024-05-23 12:25:09,379 [INFO] app.crud: 10 addresses found on page 1
+2024-05-23 12:25:09,384 [INFO] app.routers.address: Returning 10 addresses on page 1
+2024-05-23 12:26:27,748 [INFO] app.main: App has started
+2024-05-23 12:26:33,488 [INFO] app.routers.address: Fetching addresses for page 1 with page size 10
+2024-05-23 12:26:33,489 [DEBUG] app.crud: Fetching addresses for page: 1, page size: 10, offset: 0
+2024-05-23 12:26:33,494 [INFO] app.crud: 10 addresses found on page 1
+2024-05-23 12:26:33,498 [INFO] app.routers.address: Returning 10 addresses on page 1
+2024-05-23 12:26:40,648 [INFO] app.routers.address: Fetching addresses for page 2 with page size 10
+2024-05-23 12:26:40,649 [DEBUG] app.crud: Fetching addresses for page: 2, page size: 10, offset: 10
+2024-05-23 12:26:40,651 [INFO] app.crud: 2 addresses found on page 2
+2024-05-23 12:26:40,653 [INFO] app.routers.address: Returning 2 addresses on page 2
+2024-05-23 12:27:28,332 [INFO] app.main: App has started
+2024-05-23 12:27:43,616 [INFO] app.main: App has started
+2024-05-23 12:27:54,819 [INFO] app.main: App has started
+2024-05-23 12:27:55,961 [INFO] app.main: App has started
+2024-05-23 12:27:56,669 [INFO] app.routers.address: Fetching addresses for page 2 with page size 10
+2024-05-23 12:27:56,669 [DEBUG] app.crud: Fetching addresses for page: 2, page size: 10, offset: 10
+2024-05-23 12:27:56,674 [INFO] app.crud: 2 addresses found on page 2
+2024-05-23 12:27:56,677 [INFO] app.routers.address: Returning 2 addresses on page 2
+2024-05-23 12:27:58,494 [INFO] app.routers.address: Fetching addresses for page 2 with page size 10
+2024-05-23 12:27:58,494 [DEBUG] app.crud: Fetching addresses for page: 2, page size: 10, offset: 10
+2024-05-23 12:27:58,496 [INFO] app.crud: 2 addresses found on page 2
+2024-05-23 12:27:58,498 [INFO] app.routers.address: Returning 2 addresses on page 2
+2024-05-23 12:28:04,892 [INFO] app.main: App has started
+2024-05-23 12:28:04,932 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:04,990 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7f10a0cd60>
+2024-05-23 12:28:04,994 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:05,041 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7f10a0d0c0>
+2024-05-23 12:28:05,042 [DEBUG] app.crud: Fetching address with ID: 14
+2024-05-23 12:28:05,044 [INFO] app.crud: Address found: <app.models.Address object at 0x7f7f10a0d0c0>
+2024-05-23 12:28:05,048 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:05,095 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7f10a0d0c0>
+2024-05-23 12:28:05,095 [DEBUG] app.crud: Deleting address with ID: 15
+2024-05-23 12:28:05,141 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7f7f10a0d0c0>
+2024-05-23 12:28:05,141 [DEBUG] app.crud: Fetching address with ID: 15
+2024-05-23 12:28:05,144 [WARNING] app.crud: No address found with ID: 15
+2024-05-23 12:28:05,152 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:28:05,155 [INFO] app.routers.address: Creating address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:05,155 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:05,206 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7f108ec4c0>
+2024-05-23 12:28:05,208 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:28:05,212 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:28:05,213 [INFO] app.routers.address: Creating address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:05,213 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:05,259 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7f108ecee0>
+2024-05-23 12:28:05,261 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:28:05,262 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:28:05,264 [INFO] app.routers.address: Fetching address with ID: 16
+2024-05-23 12:28:05,264 [DEBUG] app.crud: Fetching address with ID: 16
+2024-05-23 12:28:05,266 [INFO] app.crud: Address found: <app.models.Address object at 0x7f7f108edf00>
+2024-05-23 12:28:05,268 [INFO] httpx: HTTP Request: GET http://testserver/addresses/16 "HTTP/1.1 200 OK"
+2024-05-23 12:28:05,272 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:28:05,276 [INFO] app.routers.address: Creating address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:05,276 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:28:05,323 [INFO] app.crud: New address created: <app.models.Address object at 0x7f7f108edbd0>
+2024-05-23 12:28:05,325 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:28:05,326 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:28:05,328 [INFO] app.routers.address: Deleting address with ID: 17
+2024-05-23 12:28:05,328 [DEBUG] app.crud: Deleting address with ID: 17
+2024-05-23 12:28:05,374 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7f7f108ee5c0>
+2024-05-23 12:28:05,376 [INFO] httpx: HTTP Request: DELETE http://testserver/addresses/17 "HTTP/1.1 200 OK"
+2024-05-23 12:28:05,377 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:28:05,379 [INFO] app.routers.address: Fetching address with ID: 17
+2024-05-23 12:28:05,379 [DEBUG] app.crud: Fetching address with ID: 17
+2024-05-23 12:28:05,381 [WARNING] app.crud: No address found with ID: 17
+2024-05-23 12:28:05,381 [WARNING] app.routers.address: Address with ID 17 not found
+2024-05-23 12:28:05,382 [ERROR] app.routers.address: Error reading address: 404: Address not found
+2024-05-23 12:28:05,383 [INFO] httpx: HTTP Request: GET http://testserver/addresses/17 "HTTP/1.1 500 Internal Server Error"
+2024-05-23 12:28:05,483 [DEBUG] app.utils: Calculating distance between (10.0, 20.0) and (10.1, 20.1)
+2024-05-23 12:28:05,483 [INFO] app.utils: Distance calculated: 15.572814083300257 km
+2024-05-23 12:29:08,292 [INFO] app.main: App has started
+2024-05-23 12:29:08,331 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:08,404 [INFO] app.crud: New address created: <app.models.Address object at 0x7fc5a0500df0>
+2024-05-23 12:29:08,407 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:08,458 [INFO] app.crud: New address created: <app.models.Address object at 0x7fc5a0501150>
+2024-05-23 12:29:08,458 [DEBUG] app.crud: Fetching address with ID: 18
+2024-05-23 12:29:08,460 [INFO] app.crud: Address found: <app.models.Address object at 0x7fc5a0501150>
+2024-05-23 12:29:08,464 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:08,512 [INFO] app.crud: New address created: <app.models.Address object at 0x7fc5a0501150>
+2024-05-23 12:29:08,512 [DEBUG] app.crud: Deleting address with ID: 19
+2024-05-23 12:29:08,564 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7fc5a0501150>
+2024-05-23 12:29:08,565 [DEBUG] app.crud: Fetching address with ID: 19
+2024-05-23 12:29:08,568 [WARNING] app.crud: No address found with ID: 19
+2024-05-23 12:29:08,582 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:29:08,585 [INFO] app.routers.address: Creating address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:08,586 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:09,186 [INFO] app.crud: New address created: <app.models.Address object at 0x7fc5a03e4640>
+2024-05-23 12:29:09,189 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:29:09,193 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:29:09,195 [INFO] app.routers.address: Creating address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:09,195 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:09,241 [INFO] app.crud: New address created: <app.models.Address object at 0x7fc5a03e46d0>
+2024-05-23 12:29:09,243 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:29:09,244 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:29:09,246 [INFO] app.routers.address: Fetching address with ID: 20
+2024-05-23 12:29:09,246 [DEBUG] app.crud: Fetching address with ID: 20
+2024-05-23 12:29:09,274 [INFO] app.crud: Address found: <app.models.Address object at 0x7fc5a03e5f90>
+2024-05-23 12:29:09,276 [INFO] httpx: HTTP Request: GET http://testserver/addresses/20 "HTTP/1.1 200 OK"
+2024-05-23 12:29:09,280 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:29:09,282 [INFO] app.routers.address: Creating address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:09,282 [DEBUG] app.crud: Creating new address with data: name='Test Address' latitude=10.0 longitude=20.0
+2024-05-23 12:29:09,330 [INFO] app.crud: New address created: <app.models.Address object at 0x7fc5a03e5d80>
+2024-05-23 12:29:09,332 [INFO] httpx: HTTP Request: POST http://testserver/addresses/ "HTTP/1.1 200 OK"
+2024-05-23 12:29:09,333 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:29:09,335 [INFO] app.routers.address: Deleting address with ID: 21
+2024-05-23 12:29:09,335 [DEBUG] app.crud: Deleting address with ID: 21
+2024-05-23 12:29:09,396 [INFO] app.crud: Address deleted: <app.models.Address object at 0x7fc5a03e6650>
+2024-05-23 12:29:09,398 [INFO] httpx: HTTP Request: DELETE http://testserver/addresses/21 "HTTP/1.1 200 OK"
+2024-05-23 12:29:09,399 [DEBUG] asyncio: Using selector: EpollSelector
+2024-05-23 12:29:09,401 [INFO] app.routers.address: Fetching address with ID: 21
+2024-05-23 12:29:09,401 [DEBUG] app.crud: Fetching address with ID: 21
+2024-05-23 12:29:09,403 [WARNING] app.crud: No address found with ID: 21
+2024-05-23 12:29:09,403 [WARNING] app.routers.address: Address with ID 21 not found
+2024-05-23 12:29:09,405 [INFO] httpx: HTTP Request: GET http://testserver/addresses/21 "HTTP/1.1 404 Not Found"
+2024-05-23 12:29:09,408 [DEBUG] app.utils: Calculating distance between (10.0, 20.0) and (10.1, 20.1)
+2024-05-23 12:29:09,408 [INFO] app.utils: Distance calculated: 15.572814083300257 km
+2024-05-23 12:29:22,194 [INFO] app.main: App has started
+2024-05-23 12:29:22,351 [INFO] app.routers.address: Fetching addresses for page 2 with page size 10
+2024-05-23 12:29:22,351 [DEBUG] app.crud: Fetching addresses for page: 2, page size: 10, offset: 10
+2024-05-23 12:29:22,359 [INFO] app.crud: 10 addresses found on page 2
+2024-05-23 12:29:22,364 [INFO] app.routers.address: Returning 10 addresses on page 2
