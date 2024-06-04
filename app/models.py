@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy import Column, Integer, String, Float, UniqueConstraint
 from .database import Base
 
 class Address(Base):
@@ -7,3 +7,4 @@ class Address(Base):
     name = Column(String, index=True)
     latitude = Column(Float)
     longitude = Column(Float)
+    __table_args__ = (UniqueConstraint('name', 'latitude', 'longitude', name='_address_uc'),)
